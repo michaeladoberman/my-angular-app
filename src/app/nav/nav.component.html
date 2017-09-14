@@ -1,0 +1,10 @@
+<div class="nav-container">
+   <!--  <h1>Detta är en navbar!!</h1> -->
+    <ul>
+        <li *ngFor="let link of links">
+        <a href="{{ link.url }}">{{ link.title}}</a>
+        </li>
+    </ul>
+    <h2 > {{ title }}</h2>
+</div>
+
